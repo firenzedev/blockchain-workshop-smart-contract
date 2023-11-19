@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-workshop",
+  "version": "1.0.0",
+  "description": "Test project for a workshop on blockchain development",
+  "scripts": {
+    "test": "hardhat test",
+    "coverage": "hardhat clean && hardhat coverage"
+  },
+  "contributors": [
+    "Tiziano Pessa <tiziano@firenze.dev>",
+    "Lorenzo Spinelli <lorenzo@firenze.dev>"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "eslint": "^8.52.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "hardhat": "^2.18.1",
+    "prettier": "^3.0.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1"
+  }
+}
